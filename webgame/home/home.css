@@ -29,6 +29,8 @@ body {
 }
 
 .navbar {
+  max-height: 0; 
+  transition: max-height 0.9s ease-out;
   margin-left: auto;
 }
 
@@ -36,6 +38,9 @@ body {
   display: none;
 }
 
+.navbar.active {
+  max-height: 500px; 
+}
 
 .navbar a {
   font-family: "Poppins", sans-serif;
@@ -302,35 +307,22 @@ body {
   font-weight: 700;
 }
 
-h4{
-  animation: stroke 5s infinite alternate;
-	stroke-width: 2;
-	stroke: #365FA0;
-	font-size: 87px;
-}
-@keyframes stroke {
-	0%   {
-		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
-		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-	}
-	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
-	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
-	100% {
-		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
-		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-	}
-}
 
-@media only screen and (min-width: 400px) and (max-width: 1000px) {
+@media only screen and (min-width: 350px) and (max-width: 1000px) {
+  .header {
+    justify-content: space-between;
+     
+  }
   .navbar {
     flex-direction: column;
     align-items: center;
   }
   .navbar-toggle {
+    display: block;
     color: #fff;
     cursor: pointer;
     font-size: 2rem;
-    margin-right: 1.5rem;
+    margin-right: 5%;
   }
 
   .navbar .href {
@@ -383,7 +375,7 @@ h4{
     color: #348cfc;
     padding: 1.2rem 1.2rem 2.4rem 1.2rem;
     height: auto;
-    text-align: left;
+    text-align: center;
   }
 
   .exp {
