@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-  max-height: 0; 
+  max-height: 100px; 
   transition: max-height 0.9s ease-out;
   margin-left: auto;
 }
