@@ -80,5 +80,5 @@ Here are the six games available in the portal:
 
 
 
-![Homepage](media/UI.png)
+![Homepage](screenshots/UI1.png)
 
