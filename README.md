@@ -80,5 +80,5 @@ Here are the six games available in the portal:
 
 
 
-![Alt text](../webgame/media/UI.png)
+![Alt text](/webgame/media/UI.png)
 
