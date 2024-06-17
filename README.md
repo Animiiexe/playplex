@@ -25,7 +25,7 @@ To get started with the Gaming Portal App, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/gaming-portal-app.git
+    git clone https://github.com/animiiexe/playplex.git
     ```
 
 2. Navigate to the project directory:
@@ -52,3 +52,27 @@ No additional setup is required.
   <p>Game Description</p>
   <button>Play Now</button>
 </div>
+
+
+
+Game List
+
+Here are the six games available in the portal:
+
+    Tic Tac Toe
+        Description: Play the classic game of Tic Tac Toe against the computer or a friend.
+
+    Ping Pong
+        Description: Enjoy a game of Ping Pong with simple controls and challenging AI.
+
+    2048
+        Description: Combine tiles with the same numbers to reach 2048 in this addictive puzzle game.
+
+    Snake
+        Description: Control the snake to eat food, grow longer, and avoid running into walls or itself.
+
+    Matchmaker
+        Description: Test your memory by matching pairs of cards within a time limit.
+
+    Dino Game
+        Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score.
