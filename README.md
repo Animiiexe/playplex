@@ -1,4 +1,4 @@
-# Playplex.io🎮 [`JointheFun!`](https://animiiexe.github.io/playplex/webgame/home/home.html)
+# Playplex.io🎮 [`JoinTheFun!`](https://animiiexe.github.io/playplex/webgame/home/home.html)
 
 ## Table of Contents
 1. [Introduction](#introduction)
