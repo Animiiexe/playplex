@@ -75,4 +75,10 @@ Here are the six games available in the portal:
         Description: Test your memory by matching pairs of cards within a time limit.
 
     Dino Game
-        Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score.
+        Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score.```
+
+
+
+
+![Alt text](../webgame/media/UI.png)
+
