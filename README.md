@@ -48,27 +48,27 @@ No additional setup is required.
 Here are the six games available in the portal:
 
 1. **Tic Tac Toe**
-   - Description: Play the classic game of Tic Tac Toe against the computer or a friend. Strategize to get three of your marks in a row to win the game.
+    Play the classic game of Tic Tac Toe against the computer or a friend. Strategize to get three of your marks in a row to win the game.
    
 
 2. **Ping Pong**
-   - Description: Enjoy a game of Ping Pong with simple controls and challenging AI. Use your paddle to hit the ball and outscore your opponent.
+ Enjoy a game of Ping Pong with simple controls and challenging AI. Use your paddle to hit the ball and outscore your opponent.
   
 
 3. **2048**
-   - Description: Combine tiles with the same numbers to reach 2048 in this addictive puzzle game. Each move merges tiles, so plan carefully.
+    Combine tiles with the same numbers to reach 2048 in this addictive puzzle game. Each move merges tiles, so plan carefully.
    
 
 4. **Snake**
-   - Description: Control the snake to eat food, grow longer, and avoid running into walls or itself. The longer the snake, the higher the score.
+   Control the snake to eat food, grow longer, and avoid running into walls or itself. The longer the snake, the higher the score.
    
 
 5. **Matchmaker**
-   - Description: Test your memory by matching pairs of cards within a time limit. The fewer moves you use, the better your score.
+    Test your memory by matching pairs of cards within a time limit. The fewer moves you use, the better your score.
 
 
 6. **Dino Game**
-   - Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score. How far can you run?
+ Play the classic offline Dino Game, jumping over obstacles to achieve a high score. How far can you run?
      
 
 ## Screenshots
