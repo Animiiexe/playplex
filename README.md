@@ -86,26 +86,10 @@ Here are the six games available in the portal:
 
 ![Demo Video](https://user-images.githubusercontent.com/yourusername/demo-video.gif)
 
-## Contributing
-We welcome contributions to improve the Gaming Portal App! To contribute, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch:
-    ```sh
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```sh
-    git commit -m "Description of your changes"
-    ```
-4. Push to the branch:
-    ```sh
-    git push origin feature-branch
-    ```
-5. Create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Badges
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/gaming-portal-app)
