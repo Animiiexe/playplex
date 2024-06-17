@@ -30,7 +30,7 @@ To get started with the Gaming Portal App, follow these steps:
 
 2. Navigate to the project directory:
     ```sh
-    cd gaming-portal-app
+    cd playplex
     ```
 
 3. Open the `index.html` file in your browser.
@@ -44,41 +44,71 @@ No additional setup is required.
 3. Click on a game to start playing.
 4. Enjoy the game and aim for high scores.
 
-```html
-<!-- Example HTML snippet for the game card -->
-<div class="game-card">
-  <img src="images/game1.jpg" alt="Game 1">
-  <h3>Game Title</h3>
-  <p>Game Description</p>
-  <button>Play Now</button>
-</div>
-
-
-
-Game List
-
+## Game List
 Here are the six games available in the portal:
 
-    Tic Tac Toe
-        Description: Play the classic game of Tic Tac Toe against the computer or a friend.
+1. **Tic Tac Toe**
+   - Description: Play the classic game of Tic Tac Toe against the computer or a friend. Strategize to get three of your marks in a row to win the game.
+   - ![Tic Tac Toe](screenshots/tic-tac-toe.png)
 
-    Ping Pong
-        Description: Enjoy a game of Ping Pong with simple controls and challenging AI.
+2. **Ping Pong**
+   - Description: Enjoy a game of Ping Pong with simple controls and challenging AI. Use your paddle to hit the ball and outscore your opponent.
+   - ![Ping Pong](screenshots/ping-pong.png)
 
-    2048
-        Description: Combine tiles with the same numbers to reach 2048 in this addictive puzzle game.
+3. **2048**
+   - Description: Combine tiles with the same numbers to reach 2048 in this addictive puzzle game. Each move merges tiles, so plan carefully.
+   - ![2048](screenshots/2048.png)
 
-    Snake
-        Description: Control the snake to eat food, grow longer, and avoid running into walls or itself.
+4. **Snake**
+   - Description: Control the snake to eat food, grow longer, and avoid running into walls or itself. The longer the snake, the higher the score.
+   - ![Snake](screenshots/snake.png)
 
-    Matchmaker
-        Description: Test your memory by matching pairs of cards within a time limit.
+5. **Matchmaker**
+   - Description: Test your memory by matching pairs of cards within a time limit. The fewer moves you use, the better your score.
+   - ![Matchmaker](screenshots/matchmaker.png)
 
-    Dino Game
-        Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score.```
+6. **Dino Game**
+   - Description: Play the classic offline Dino Game, jumping over obstacles to achieve a high score. How far can you run?
+   - ![Dino Game](screenshots/dino-game.png)
 
+## Screenshots
 
+![Home Page](screenshots/home-page.png)
+*Home Page*
 
+![Game Library](screenshots/game-library.png)
+*Game Library*
 
-![Homepage](screenshots/UI1.png)
+![Profile](screenshots/profile.png)
+*User Profile*
 
+## Demo
+
+![Demo Video](https://user-images.githubusercontent.com/yourusername/demo-video.gif)
+
+## Contributing
+We welcome contributions to improve the Gaming Portal App! To contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```sh
+    git commit -m "Description of your changes"
+    ```
+4. Push to the branch:
+    ```sh
+    git push origin feature-branch
+    ```
+5. Create a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Badges
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/gaming-portal-app)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/gaming-portal-app)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/gaming-portal-app)
+![GitHub](https://img.shields.io/github/license/yourusername/gaming-portal-app)
