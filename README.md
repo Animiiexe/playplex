@@ -1,4 +1,4 @@
-# [Playplex.io🎮](https://animiiexe.github.io/playplex/webgame/home/home.html)
+# [Playplex.io🎮](https://animiiexe.github.io/playplex/webgame/home/home.html) `click`
 
 ## Table of Contents
 1. [Introduction](#introduction)
