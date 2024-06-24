@@ -119,7 +119,7 @@ span {
   left: 50%;
   width: 50%;
   height: 70%;
-  z-index: 1;
+  z-index: 10;
   transition: 3s;
   transform: translateX(0px);
   animation: float 6s ease-out infinite;
