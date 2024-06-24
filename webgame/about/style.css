@@ -119,6 +119,22 @@ span {
   left: 50%;
   width: 50%;
   height: 70%;
+  z-index: -1;
+  transition: 3s;
+  transform: translateX(0px);
+  animation: float 6s ease-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .scrolls #button {
