@@ -298,7 +298,6 @@ span {
 
 .gameee{
    display: none;
-
 }
 .name23 {
   color: #fff;
@@ -311,7 +310,7 @@ span {
     margin-top: 20%;
     width: 100%;
   }
-  .image_1 img {
+  .image_1 img  {
     display: none;
   }
   .welcome{
@@ -323,14 +322,6 @@ span {
   }
   p {
     font-size: 2rem;
-  }
-  .gameee{
-    display: flex;
-    position: absolute;
-    margin: 60% 0 0 0;
-    height: 30%;
-    
-    
   }
   .testimonials{
     margin: 90% 0 10% 0;
@@ -355,6 +346,9 @@ span {
   }
   .vita{
     margin-left:17%;
+  }
+  .no {
+    display:none;
   }
 }
 
