@@ -200,6 +200,7 @@ body {
 }
 
 .footer {
+  background: #348bfcf7;
   margin-top: 20%;
   position: relative;
   width: 100%;
@@ -234,7 +235,7 @@ body {
   transition: 0.5s;
 }
 .social-icon__link:hover {
-  color: #348cfc;
+  color: #000000;
   transform: translateY(-10px);
 }
 .footer p {
