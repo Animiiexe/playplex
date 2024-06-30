@@ -76,7 +76,7 @@ Here are the six games available in the portal:
 ![Home Page](screenshots/UI1.png)
 *Home Page*
 
-![Profile](screenshots/myvideo11.mp4)
+<video src="screenshots/myvideo11.mp4" controls width="640"></video>
 *Game Library*
 
 ![Profile](screenshots/UI3.png)
