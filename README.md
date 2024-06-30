@@ -82,9 +82,10 @@ Here are the six games available in the portal:
 ![Profile](screenshots/UI3.png)
 *About Us*
 
+
 ## Demo
 
-![Demo Video](https://user-images.githubusercontent.com/animiiexe/screenshots/myvideo11.mp4)
+
 
 
 
