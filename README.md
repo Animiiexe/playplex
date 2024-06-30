@@ -12,7 +12,7 @@
 9. [License](#license)
 
 ## Introduction
-Welcome to the Gaming Portal App! This app offers six exciting single-player games, providing hours of entertainment. Built with HTML, CSS, and JavaScript, it features a user-friendly interface and smooth gameplay experience.
+Welcome to the Playplex.io! This app offers six exciting single-player games, providing hours of entertainment. Built with HTML, CSS, and JavaScript, it features a user-friendly interface and smooth gameplay experience.
 
 ## Features
 - Six unique single-player games
@@ -21,7 +21,7 @@ Welcome to the Gaming Portal App! This app offers six exciting single-player gam
 - Responsive design for desktop and mobile
 
 ## Installation
-To get started with the Gaming Portal App, follow these steps:
+To get started with the Playplex.io , follow these steps:
 
 1. Clone the repository:
     ```sh
@@ -33,7 +33,7 @@ To get started with the Gaming Portal App, follow these steps:
     cd playplex
     ```
 
-3. Open the `index.html` file in your browser.
+3. Open the `home.html` file in your browser.
 
 No additional setup is required.
 
