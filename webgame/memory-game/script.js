@@ -1,6 +1,6 @@
 "use strict";
 
-// Define base URL for images
+
 const baseURL = "./assets/";
 
 // Define card data
@@ -122,7 +122,7 @@ function initCards() {
   }
   shuffleCard();
 
-  // Flip card event on all cards
+
   cards.forEach((card) => {
     card.addEventListener("click", flipCard);
   });
