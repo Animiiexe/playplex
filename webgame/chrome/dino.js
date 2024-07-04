@@ -35,7 +35,7 @@ let cactus2Img;
 let cactus3Img;
 
 //physics
-let velocityX = -8; //cactus moving left speed
+let velocityX = -8; 
 let velocityY = 0;
 let gravity = .4;
 
@@ -47,7 +47,7 @@ window.onload = function() {
     board.height = boardHeight;
     board.width = boardWidth;
 
-    context = board.getContext("2d"); //used for drawing on the board
+    context = board.getContext("2d"); 
 
 
     dinoImg = new Image();
@@ -66,7 +66,7 @@ window.onload = function() {
     cactus3Img.src = "./img/cactus3.png";
 
     requestAnimationFrame(update);
-    setInterval(placeCactus, 1000); //1000 milliseconds = 1 second
+    setInterval(placeCactus, 800); 
     document.addEventListener("keydown", moveDino);
 }
 
@@ -79,7 +79,7 @@ function update() {
 
     //dino
     velocityY += gravity;
-    dino.y = Math.min(dino.y + velocityY, dinoY); //apply gravity to current dino.y, making sure it doesn't exceed the ground
+    dino.y = Math.min(dino.y + velocityY, dinoY); 
     context.drawImage(dinoImg, dino.x, dino.y, dino.width, dino.height);
 
     //cactus
