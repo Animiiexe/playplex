@@ -86,7 +86,7 @@ Here are the six games available in the portal:
 This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
 ## Badges
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/yourusername/gaming-portal-app)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/gaming-portal-app)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/gaming-portal-app)
-![GitHub](https://img.shields.io/github/license/yourusername/gaming-portal-app)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Animiiexe/gaming-portal-app)
+![GitHub issues](https://img.shields.io/github/issues/Animiiexe/gaming-portal-app)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Animiiexe/gaming-portal-app)
+![GitHub](https://img.shields.io/github/license/Animiiexe/gaming-portal-app)
