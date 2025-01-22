@@ -4,24 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/home/home.css">
+  <link rel="icon" href="../media/logo22.png" >
+  <title>Playplex</title>
+  <link rel="stylesheet" href="./home.css">
 </head>
 
 <body>
-  <header class="header">
-    <h2>Playplex.io</h2>
-    <nav class="navbar">
-      <a href="" class="href">Home</a>
-      <a href="/about/index.html" class="href">About</a>
-
-    </nav>
-    <div class="navbar-toggle" id="toggle-btn">&#9776;</div>
-  </header>
-
+<nav>
+  <ul class="sidebar">
+    <li onclick="closeSidebar()"><a href="http://"><svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#e0dede"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="../about/index.html">About</a></li>
+  </ul>
+  <ul>
+    <li class=""><a href=""><h2 id="top1">Playplex</h2></a></li>
+    <li class="hideOnmobile"><a href="#">Home</a></li>
+    <li class="hideOnmobile"><a href="../about/index.html">About</a></li>
+    <li onclick="openSidebar()"><a href="http://"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="26px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+  </ul>
+</nav>
   <div id="center">
     <div id="content">
-      <video autoplay loop muted src="/media/video5.mp4"></video>
+      <video autoplay loop muted src="../media/video5.mp4"></video>
       <div id="overlay">
         <div id="over1">
           <h1>Level Up Your Fun:Your Ultimate
@@ -34,7 +38,7 @@
 
   <section class="list-section">
     <div class="list">
-      <a class="link menu" href="/tictactoe/index.html">
+      <a class="link menu" href="../tictactoe/index.html">
         <img class="logo" src="/media/xdf.png" alt="IITM LOG" />
         <div class="details">
           <p class="name">Tic-Tac-Toe</p>
@@ -42,54 +46,54 @@
             game of Xs and Os. </p>
         </div>
       </a>
-      <a class="link menu" href="/dino/index.html">
+      <a class="link menu" href="../dino/index.html">
 
-        <img class="logo" src="/media/PING.png" alt="MIT LOGO" />
+        <img class="logo" src="../media/PING.png" alt="MIT LOGO" />
         <div class="details">
           <p class="name">Pong Master</p>
           <p class="description">Dive into the fast-paced world of Single Player <span class="exp">Ping-pong.</span></p>
         </div>
       </a>
-      <a class="link menu" href="/snake/index.html">
 
-        <img class="logo" src="/media/snake.png" alt="MIT LOGO">
+       <a class="link menu" href="../2048/index.html">
+        <img class="logo" src="../media/2048.png" alt="MIT LOGO" />
+        <div class="details">
+          <p class="name">2048</p>
+          <p class="description">Merge tiles strategically on a 4x4 grid to reach the <span class="exp">elusive '2048' tile.</span> Addictive and challenging, it's a game of skill and foresight</p>
+        </div>
+      </a>
+      <a class="link menu" href="../snake/index.html">
+
+        <img class="logo" src="../media/snake.png" alt="MIT LOGO">
         <div class="details">
           <p class="name">Slither Quest</p>
           <p class="description">Embark on a journey in the <span class="exp">Snake game</span>, where every bite makes
             you stronger but every collision spells doom.</p>
         </div>
       </a>
-      <a class="link menu" href="/memory-game/index.html">
-        <img class="logo" src="/media/match.png" alt="MIT LOGO" />
+      <a class="link menu" href="../memory-game/index.html">
+        <img class="logo" src="../media/match.png" alt="MIT LOGO" />
         <div class="details">
           <p class="name">Match Maker</p>
-          <p class="description">Sharpen your memory with the <br><span class="exp">Memory-game</span>, matching pairs
+          <p class="description">Sharpen your memory with the<span class="exp">Memory-game</span>,matching pairs
             to uncover hidden patterns.</p>
         </div>
       </a>
-      <a class="link menu" href="/chrome/index.html">
-        <img class="logo" src="/media/dinos.jpg" alt="MIT LOGO" />
+      <a class="link menu" href="../chrome/index.html">
+        <img class="logo" src="../media/dinos.jpg" alt="MIT LOGO" />
         <div class="details">
           <p class="name">Pixel Dino Escape</p>
           <p class="description">Guide your <span class="exp">Pixel dino</span> through a vibrant landscape, dodging
             obstacles and testing your reflexes in this endless runner.</p>
         </div>
       </a>
-      <a class="link menu" href="/2048/index.html">
-        <img class="logo" src="/media/2048.png" alt="MIT LOGO" />
-        <div class="details">
-          <p class="name">2048</p>
-          <p class="description">Merge tiles strategically on a 4x4 grid to reach the <span class="exp">elusive '2048' tile.</span> Addictive and challenging, it's a game of skill and foresight</p>
-        </div>
-      </a>
     </div>
-    </a>
   </section>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path fill="#348cfc" fill-opacity="1" d="M0,224L0,128L360,128L360,224L720,224L720,192L1080,192L1080,224L1440,224L1440,320L1080,320L1080,320L720,320L720,320L360,320L360,320L0,320L0,320Z"></path>
   </svg>
+
   <footer class="footer">
-   
     <ul class="social-icon">
       <li class="social-icon__item"><a class="social-icon__link" href="#">
           <ion-icon name="logo-facebook"></ion-icon>
@@ -105,12 +109,12 @@
         </a></li>
     </ul>
 
-    <div class="name23">
+    <div class="name23" onclick="top()" >
       Playplex.io
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
